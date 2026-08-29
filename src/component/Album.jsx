@@ -11,8 +11,9 @@ import img8 from './img/img8.jpeg';
 import img9 from './img/img9.jpeg';
 import img10 from './img/img10.jpeg';
 import img11 from './img/img11.jpeg';
-import { Navigate } from 'react-router-dom';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 
+const navigate = useNavigate()
 const photos = [
     {
         id: 1,
@@ -251,14 +252,13 @@ const Album = () => {
                             a thousand more memories with you.
                         </p>
 
-                        {/* Love Letter Button */}
-                        <button
-                            type="button"
-                            onClick={() => Navigate('/loveLetter')}
-                            className="mt-8 rounded-full border border-pink-400/40 bg-pink-500/10 px-7 py-3 font-['Cormorant_Garamond'] text-lg text-pink-100 backdrop-blur-md transition-all duration-500 hover:scale-105 hover:bg-pink-500/20 hover:shadow-[0_0_30px_rgba(236,72,153,0.35)]"
+                        {/* Love Letter Link */}
+                        <Link
+                            to="/loveLetter"
+                            className="mt-8 inline-block rounded-full border border-pink-400/40 bg-pink-500/10 px-7 py-3 font-['Cormorant_Garamond'] text-lg text-pink-100 backdrop-blur-md transition-all duration-500 hover:scale-105 hover:bg-pink-500/20 hover:shadow-[0_0_30px_rgba(236,72,153,0.35)]"
                         >
                             💌 Read My Love Letter
-                        </button>
+                        </Link>
 
                     </div>
 
