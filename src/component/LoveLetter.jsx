@@ -7,7 +7,7 @@ const LoveLetter = () => {
     const user = JSON.parse(localStorage.getItem('madam'));
     const name = user?.name || 'Madam Jii';
 
-    const [timer, setTimer] = useState(1);
+    const [timer, setTimer] = useState(101);
     const [loading, setLoading] = useState(true);
 
     const [showRain, setShowRain] = useState(false);
