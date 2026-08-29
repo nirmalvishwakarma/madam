@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import img1 from './img/img1.jpeg';
 import img2 from './img/img2.jpeg';
@@ -11,9 +12,7 @@ import img8 from './img/img8.jpeg';
 import img9 from './img/img9.jpeg';
 import img10 from './img/img10.jpeg';
 import img11 from './img/img11.jpeg';
-import { Link, Navigate, useNavigate } from 'react-router-dom';
 
-const navigate = useNavigate()
 const photos = [
     {
         id: 1,
