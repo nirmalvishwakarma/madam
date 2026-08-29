@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FourSquare } from 'react-loading-indicators';
-import { Link } from 'react-router-dom';
+import { Link, Links, NavLink } from 'react-router-dom';
 
 const EMOJIS = ['💗', '💖', '💕', '❤️', '💘', '🥰', '😘', '🌸', '🫶', '🧿'];
 
@@ -8,7 +8,7 @@ const LoveLetter = () => {
     const user = JSON.parse(localStorage.getItem('madam'));
     const name = user?.name;
 
-    const [timer, setTimer] = useState(101);
+    const [timer, setTimer] = useState(1);
     const [loading, setLoading] = useState(true);
 
     const [showRain, setShowRain] = useState(false);
@@ -192,13 +192,13 @@ const LoveLetter = () => {
                         </p>
 
                         <div className="flex w-full justify-center py-6">
-                            <a
-                                href="https://www.instagram.com/niru21x/"
+                            <NavLink
+                                to="https://www.instagram.com/niru21x/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className=" rounded-full bg-gradient-to-r from-rose-500 via-pink-500 to-fuchsia-500 px-5 py-3 font-['Dancing_Script'] text-[15px] text-white shadow-[0_0_30px_rgba(236,72,153,0.4)] transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(236,72,153,0.6)] ">
                                 💌 Reply to Me on Instagram
-                            </a>
+                            </NavLink>
                         </div>
 
 
