@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FourSquare } from 'react-loading-indicators';
 import { Link } from 'react-router-dom';
 
-const EMOJIS = ['💗', '💖', '💕', '❤️', '💘', '🥰', '😘', '🌸','🫶','🧿'];
+const EMOJIS = ['💗', '💖', '💕', '❤️', '💘', '🥰', '😘', '🌸', '🫶', '🧿'];
 
 const LoveLetter = () => {
     const user = JSON.parse(localStorage.getItem('madam'));
@@ -187,27 +187,30 @@ const LoveLetter = () => {
                             incredibly special to me.
                         </p>
 
-                        <p className="mt-5 text-[1rem] leading-9 text-[#5C3744] font-bold">
+                        <p className="mt-5 text-[15px] leading-9 text-[#5C3744] font-bold">
                             I Love You {name}, Soo Much 🤍🫶!
                         </p>
 
-                        <div className="w-[100%] py-4 flex justify-center items-center font-['Dancing_Script']">
-                            <Link
-                                to={'https://www.instagram.com/niru21x/'}
-                                className='shadow-2xl bg-red-500 p-2 rounded'
-                            >
-                                Click Here To Reply Him! 👋
-                            </Link>
+                        <div className="flex w-full justify-center py-6">
+                            <a
+                                href="https://www.instagram.com/niru21x/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className=" rounded-full bg-gradient-to-r from-rose-500 via-pink-500 to-fuchsia-500 px-5 py-3 font-['Dancing_Script'] text-[15px] text-white shadow-[0_0_30px_rgba(236,72,153,0.4)] transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(236,72,153,0.6)] ">
+                                💌 Reply to Me on Instagram
+                            </a>
                         </div>
+
+
                     </div>
 
                     <div className="mt-8 border-t border-[#F3C6D0] pt-6 text-right font-bold">
                         <p className="font-['Great_Vibes'] text-2xl text-[#7F1D3D]">
-                            Yours, Sir Jii 💌
+                            Your, Sir Jii 💌
                         </p>
 
                         <p className="mt-2 font-['Cormorant_Garamond'] text-lg text-[#9F5B72]">
-                            With all my love 🫀
+                            With All My Love 🫀
                         </p>
                     </div>
                 </div>

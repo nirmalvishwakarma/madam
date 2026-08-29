@@ -63,7 +63,7 @@ const EnterName = () => {
                         textColor=""
                     />
 
-                    <p className="font-['Cormorant_Garamond'] text-lg font-semibold text-rose-900">
+                    <p className="font-['Great_Vibes'] text-lg font-semibold text-rose-900">
                         Wait Madam Jii... 🫣💗
                     </p>
 

@@ -46,33 +46,33 @@ const photos = [
     {
         id: 6,
         src: img6,
-        title: 'Us ❤️',
-        caption: 'And hopefully, many more memories to come.',
+        title: 'You is You ❤️',
+        caption: 'You Never Chnaged!',
     }, {
         id: 7,
         src: img7,
-        title: 'Us ❤️',
-        caption: 'And hopefully, many more memories to come.',
+        title: 'Some Old Memory👀',
+        caption: 'I am There Beside You!',
     }, {
         id: 8,
         src: img8,
-        title: 'Us ❤️',
-        caption: 'And hopefully, many more memories to come.',
+        title: 'I like it',
+        caption: 'In This Dress I love You🤍',
     }, {
         id: 9,
         src: img9,
-        title: 'Us ❤️',
-        caption: 'And hopefully, many more memories to come.',
+        title: 'This Also',
+        caption: 'I Like All The Photo of Yours, it Melt My heart!',
     }, {
         id: 10,
         src: img10,
-        title: 'Us ❤️',
-        caption: 'And hopefully, many more memories to come.',
+        title: 'I Rember This Place',
+        caption: 'I Have Gone This Place Years Ago!',
     }, {
         id: 11,
         src: img11,
         title: 'Us ❤️',
-        caption: 'And hopefully, many more memories to come.',
+        caption: 'I Hope, Next Time it Should Be More Photo Of Uss!👀',
     },
 ];
 

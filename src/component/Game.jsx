@@ -126,7 +126,7 @@ const CuteLoveGame = () => {
                             to="/album"
                             className="mt-5 inline-flex items-center justify-center rounded-full bg-gradient-to-r from-rose-500 to-pink-500 px-4 py-3 font-['Cormorant_Garamond'] text-sm font-bold text-white shadow-lg shadow-rose-300/40 transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-xl"
                         >
-                            Open Album
+                            Open Album 📸
                         </Link>
 
                     </div>
