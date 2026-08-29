@@ -254,7 +254,7 @@ const Album = () => {
                         <button
                             type="button"
                             onClick={() => {
-                                window.location.href = '/loveLetter';
+                                window.location.href = '/madam/loveLetter';
                             }}
                             className="mt-8 rounded-full border border-pink-400/40 bg-pink-500/10 px-7 py-3 font-['Cormorant_Garamond'] text-lg text-pink-100 backdrop-blur-md transition-all duration-500 hover:scale-105 hover:bg-pink-500/20 hover:shadow-[0_0_30px_rgba(236,72,153,0.35)]"
                         >
